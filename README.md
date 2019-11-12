@@ -1,6 +1,6 @@
 # NPCScan-Alert
 
-###### Disclaimer: My brother and I made this for private servers in 2017 while polishing off a bottle of Scotch. It does not violate WoW EULA as far as I can tell as it doesn't actually "...interact with the Platform". (See [Section 1.C.ii.4 of the WoW EULA](https://www.blizzard.com/en-us/legal/fba4d00f-c7e4-4883-b8b9-1b4500a402ea/blizzard-end-user-license-agreement))
+###### Disclaimer: My brother and I made this for private servers in 2017 while polishing off a bottle of Scotch. It does not violate WoW EULA as far as I can tell as it can't actually " be used in connection with the Platform and/or any component or feature thereof which changes and/or facilitates the gameplay or other functionality;". (See [Section 1.C.ii.4 of the WoW EULA](https://www.blizzard.com/en-us/legal/fba4d00f-c7e4-4883-b8b9-1b4500a402ea/blizzard-end-user-license-agreement))
 
 ### Description
   Scout.py continuously scans the Screenshots folder looking for new files added after the script's initial run time. If a new screenshot is found then Scout.py executes a command to run a second script. The second script is chosen at Scout.py's run time based on whichever argument gets passed (e.g. -Kazzak). This second script will then turn on your Discord Bot, and @everyone in a channel (3 times) based on the channel ID specified in each of the secondary scripts. A lot of this 
