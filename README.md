@@ -20,9 +20,9 @@
       
       
 ### Acceptable Usage
-*python3 C:\Users\lucuris\Desktop\NPCscan_Alert\scout.py -Azuregos
-*python3 C:\Users\lucuris\Desktop\NPCscan_Alert\scout.py -Kazzak
-*python3 C:\Users\lucuris\Desktop\NPCscan_Alert\scout.py -Hinterlands
-*python3 C:\Users\lucuris\Desktop\NPCscan_Alert\scout.py -Duskwood
-*python3 C:\Users\lucuris\Desktop\NPCscan_Alert\scout.py -Ashenvale
-*python3 C:\Users\lucuris\Desktop\NPCscan_Alert\scout.py -Feralas
+* python3 C:\Users\lucuris\Desktop\NPCscan_Alert\scout.py -Azuregos
+* python3 C:\Users\lucuris\Desktop\NPCscan_Alert\scout.py -Kazzak
+* python3 C:\Users\lucuris\Desktop\NPCscan_Alert\scout.py -Hinterlands
+* python3 C:\Users\lucuris\Desktop\NPCscan_Alert\scout.py -Duskwood
+* python3 C:\Users\lucuris\Desktop\NPCscan_Alert\scout.py -Ashenvale
+* python3 C:\Users\lucuris\Desktop\NPCscan_Alert\scout.py -Feralas
