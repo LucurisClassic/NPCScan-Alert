@@ -10,7 +10,7 @@ def discordReport():
 	alertMSG = '@everyone Lord Kazzak SPAWN - Blasted Lands ! :Kazzak:'
 
 	while True:
-		if counter <=3:
+		if counter <=2:
 			yield from client.send_message(channel, alertMSG)
 			yield from asyncio.sleep(1) # task runs every 60 seconds
 			counter += 1
