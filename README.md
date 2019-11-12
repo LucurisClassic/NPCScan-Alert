@@ -28,5 +28,4 @@
 * python3 C:\path\to\NPCscan_Alert\scout.py -Feralas
 
 
-###### Disclaimer
-  I was really drunk when I made this for private servers in 2017.
+###### Disclaimer: I was really drunk when I made this for private servers in 2017.
