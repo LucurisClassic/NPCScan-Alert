@@ -1,6 +1,6 @@
 # NPCScan-Alert
 
-###### Disclaimer: I was really drunk when I made this for private servers in 2017.
+###### Disclaimer: My brother and I made this for private servers in 2017 while polishing off a bottle of Scotch. It does not violate WoW EULA as far as I can tell as it doesn't actually "...interact with the Platform". (See [Section 1.C.ii.4 of the WoW EULA](https://www.blizzard.com/en-us/legal/fba4d00f-c7e4-4883-b8b9-1b4500a402ea/blizzard-end-user-license-agreement))
 
 ### Description
   Scout.py continuously scans the Screenshots folder looking for new files added after the script's initial run time. If a new screenshot is found then Scout.py executes a command to run a second script. The second script is chosen at Scout.py's run time based on whichever argument gets passed (e.g. -Kazzak). This second script will then turn on your Discord Bot, and @everyone in a channel (3 times) based on the channel ID specified in each of the secondary scripts. A lot of this 
@@ -22,6 +22,10 @@
       1. Open up Command Prompt (Start Menu and type 'cmd').
       2. Type (for example): "python3 C:\Users\lucuris\Desktop\NPCscan_Alert\scout.py -Azuregos". If you chose an irregular path like in the example you will need to edit the Scout.py file to point to the correct folder.
       3. Do not close Command Prompt as that will kill the process and nothing will happen if a boss spawns. 
+  7. Get on your scouter and make sure the boss you are scouting is on your Unitscan list
+      1. /unitscan Azuregos
+  8. Clock in on the scouting schedule.
+  9. 
       
       
 ### Acceptable Usage
