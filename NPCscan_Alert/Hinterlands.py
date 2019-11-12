@@ -6,7 +6,7 @@ client = discord.Client()
 def discordReport():
 	yield from client.wait_until_ready()
 	counter = 0
-	channel = discord.Object(id='349500178971099136')
+	channel = discord.Object(id='')# YOUR DESIRED CHANNEL ID !!!!!!!!!!!!!!!!!
 	alertMSG = '@everyone Hinterlands SPAWN :dragon:'
 	
 	while counter <=20:
@@ -22,4 +22,4 @@ def on_ready():
 	print('------')
 
 client.loop.create_task(discordReport())
-client.run('MzQ5NDgzMTQ4NTE5NjY5NzYy.DH2PJw.Hulyyag963N87Nqc3t6envSSF4w')
+client.run('') #YOUR BOT'S TOKEN !!!
