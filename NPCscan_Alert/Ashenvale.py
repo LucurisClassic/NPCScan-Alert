@@ -9,7 +9,7 @@ def discordReport():
 	channel = discord.Object(id='') # YOUR DESIRED CHANNEL ID !!!!!!!!!!!!
 	alertMSG = '@everyone Ashenvale SPAWN :dragon:'
 	
-	while counter <=20:
+	while counter <=2:
 		yield from client.send_message(channel, alertMSG)
 		yield from asyncio.sleep(1) # task runs every 60 seconds
 		counter += 1
