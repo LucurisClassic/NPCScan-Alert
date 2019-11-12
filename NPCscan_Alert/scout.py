@@ -3,23 +3,23 @@ import sys
 import time
 import datetime
 import subprocess
-screenshotsfolder = '/Users/tim/Downloads/WoW-1.12.1-enUS-Mac/Screenshots'
+screenshotsfolder = 'C:\\Program Files (x86)\\World of Warcraft_classic_\\Screenshots'
 def eventTrigger(unixtimestamp,filename):
 	print ("Detected file %s @ %s" % (os.path.join(screenshotsfolder,"ScreenShot_"+filename+".jpeg"), unixtimestamp))
 	if sys.argv[1] == '-Hinterlands':
-		filePicker = '/Users/tim/Desktop/NPCscan_Alert/Hinterlands.py'
+		filePicker = 'C:\\Users\\lucuris\\Downloads\\NPCscan_Alert\\Hinterlands.py'
 	elif sys.argv[1] == '-Ashenvale':
-		filePicker = '/Users/tim/Desktop/NPCscan_Alert/Ashenvale.py'
+		filePicker = 'C:\\Users\\lucuris\\Downloads\\NPCscan_Alert\\Ashenvale.py'
 	elif sys.argv[1] == '-Feralas':
-		filePicker = '/Users/tim/Desktop/NPCscan_Alert/Feralas.py'
+		filePicker = 'C:\\Users\\lucuris\\Downloads\\NPCscan_Alert\\Feralas.py'
 	elif sys.argv[1] == '-Duskwood':
-		filePicker = '/Users/tim/Desktop/NPCscan_Alert/Duskwood.py'
+		filePicker = 'C:\\Users\\lucuris\\Downloads\\NPCscan_Alert\\Duskwood.py'
 	elif sys.argv[1] == '-Kazzak':
-		filePicker = '/Users/tim/Desktop/NPCscan_Alert/Kazzak.py'
+		filePicker = 'C:\\Users\\lucuris\\Downloads\\NPCscan_Alert\\Kazzak.py'
 	elif sys.argv[1] == '-Azuregos':
-		filePicker = '/Users/tim/Desktop/NPCscan_Alert/Azuregos.py'
+		filePicker = 'C:\\Users\\lucuris\\Downloads\\NPCscan_Alert\\Azuregos.py'
 	else:
-		filePicker = '/Users/tim/Desktop/NPCscan_Alert/noZoneSpecified.py' 	
+		filePicker = 'C:\\Users\\lucuris\\Downloads\\NPCscan_Alert\\noZoneSpecified.py' 	
 	cmd = ['python3',filePicker]
 	subprocess.Popen(cmd)
 
