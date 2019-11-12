@@ -13,7 +13,10 @@
   1. Download as zip. 
   2. Extract the zip to your desired location.
   3. Edit the Scout.py and change the location of the Screenshots folder if yours is different.
-  4. Edit Hinterlands.py, Ashenvale.py, Azuregos.py, Feralas.py, Duskwood.py, and Kazzak.py on line 9 and line 25 with the correct information for your channel ID and bot token (respectively). If you do not know what these are then you should follow this guide on how to set up a [Discord Bot](https://discordpy.readthedocs.io/en/latest/discord.html).
+  4. Edit Hinterlands.py, Ashenvale.py, Azuregos.py, Feralas.py, Duskwood.py, and Kazzak.py 
+      1. line 9 with your desired channel ID. 
+      2. Line 25 with your Discord Bot's token.
+      3. If you do not know what these are then you should follow this guide on how to set up a [Discord Bot](https://discordpy.readthedocs.io/en/latest/discord.html).
   5.  Unitscan needs to be slightly modified for this to work. All you need to do is add "Screenshot()" at line 26 in the unitscan.lua file. My file for example: https://imgur.com/XELY4Hj
   6. Running the script:
       1. Open up Command Prompt (Start Menu and type 'cmd').
