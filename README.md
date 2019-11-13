@@ -8,6 +8,7 @@
  * **Requirements**
       * Python3
       * [Unitscan](https://www.curseforge.com/wow/addons/unitscan/)
+      * A Discord Bot
   
 ### How to Install, What to Change, How to Use
   1. Download as zip. 
