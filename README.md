@@ -28,7 +28,7 @@
   9. Open up netflix, pornhub, youtube whatever and check back in every 15 or so minutes to not get auto disconnected by Blizzard.
       
       
-### Acceptable Usage
+### Command Line Usage
 * python3 C:\path\to\NPCscan_Alert\scout.py -Azuregos
 * python3 C:\path\to\NPCscan_Alert\scout.py -Kazzak
 * python3 C:\path\to\NPCscan_Alert\scout.py -Hinterlands
