@@ -13,7 +13,7 @@
 ### How to Install, What to Change, How to Use
   1. Download as zip. 
   2. Extract the zip to your desired location.
-  3. Edit Scout.py and change the location of the Screenshots folder if yours is different.
+  3. Edit Scout.py and change the location of the NPCScan-Alert/Screenshots folders if yours are different.
   4. Edit Hinterlands.py, Ashenvale.py, Azuregos.py, Feralas.py, Duskwood.py, and Kazzak.py 
       1. Line 9 with your desired channel ID. 
       2. Line 25 with your Discord Bot's token.
