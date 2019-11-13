@@ -3,7 +3,7 @@
 ###### Disclaimer: My brother and I made this for private servers in 2017 while polishing off a bottle of Scotch.
 
 ### Description
-  Scout.py continuously scans the Screenshots folder looking for new files added after the script's initial run time. If a new screenshot is found then Scout.py executes a command to run a second script. The second script is chosen at Scout.py's run time based on whichever argument gets passed (e.g. -Kazzak). This second script will then turn on your Discord Bot, and @everyone in a channel (3 times) based on the channel ID specified in each of the secondary scripts. A lot of this 
+  Scout.py continuously scans the Screenshots folder looking for new files added after the script's initial run time. If a new screenshot is found then Scout.py executes a command to run a second script. The second script is chosen at Scout.py's run time based on whichever argument gets passed (e.g. -Kazzak). This second script will then turn on your Discord Bot, and @everyone in a channel (3 times) based on the channel ID specified in each of the secondary scripts. 
   
  * **Requirements**
       * Python3
