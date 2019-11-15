@@ -7,6 +7,8 @@
   
  * **Requirements**
       * Python3
+        * Pip
+          * Use Pip to install the discord API library (from command line: pip install discord)
       * [Unitscan](https://www.curseforge.com/wow/addons/unitscan/)
       * A Discord Bot
   
