@@ -2,19 +2,17 @@ import sys
 import discord
 import asyncio
 client = discord.Client()
-@asyncio.coroutine
-def discordReport():
-	yield from client.wait_until_ready()
+
+async def discordReport():
+	await client.wait_until_ready()
 	counter = 0
-	channel = discord.Object(id='') # YOUR DESIRED CHANNEL ID !!!!!!!!!
-	alertMSG = '@everyone Azuregos SPAWN - Azshara ! :Azuregos:' 
-	  
+	channel = client.get_channel() #place desired channel ID here as an integer
+
 	while counter <=2:
-		yield from client.send_message(channel, alertMSG)
-		yield from asyncio.sleep(1) # task runs every 60 seconds
+		await channel.send('@everyone Azuregos SPAWN - Azshara ! :azuregos:')
 		counter += 1
 
-@client.async_event
+# @client.async_event
 def on_ready():
 	print('Logged in as')
 	print(client.user.name)
@@ -22,4 +20,4 @@ def on_ready():
 	print('------')
 
 client.loop.create_task(discordReport())
-client.run('') #YOUR BOT'S TOKEN !!!!!!!!
+client.run('') #place discord bot's token here
