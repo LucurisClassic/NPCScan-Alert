@@ -23,7 +23,7 @@
   5.  Unitscan needs to be slightly modified for this to work. All you need to do is add "Screenshot()" at line 26 in the unitscan.lua file. My file for example: https://imgur.com/XELY4Hj
   6. Running the script:
       1. Open up Command Prompt (Start Menu and type 'cmd').
-      2. Type (for example): "python3 C:\Users\lucuris\Desktop\NPCscan_Alert\scout.py -Azuregos". If you chose an irregular path like in the example you will need to edit the Scout.py file to point to the correct folder.
+      2. Type (for example): "python3 C:\Users\lucuris\Desktop\NPCscan_Alert\scout.py -Azuregos". If you chose an irregular path like in the example you will need to edit the `Scout.py` file to point to the correct folder.
       3. Do not close Command Prompt as that will kill the process and nothing will happen if a boss spawns. 
   7. Get on your scouter and make sure the boss you are scouting is on your Unitscan list
       1. `/unitscan Azuregos`
