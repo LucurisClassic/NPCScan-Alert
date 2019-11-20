@@ -26,7 +26,7 @@
       2. Type (for example): "python3 C:\Users\lucuris\Desktop\NPCscan_Alert\scout.py -Azuregos". If you chose an irregular path like in the example you will need to edit the Scout.py file to point to the correct folder.
       3. Do not close Command Prompt as that will kill the process and nothing will happen if a boss spawns. 
   7. Get on your scouter and make sure the boss you are scouting is on your Unitscan list
-      1. /unitscan Azuregos
+      1. `/unitscan Azuregos`
   8. Clock in on the scouting schedule.
   9. Open up netflix, pornhub, youtube whatever and check back in every 15 or so minutes to not get auto disconnected by Blizzard.
       
