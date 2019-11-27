@@ -32,9 +32,9 @@
       
       
 ### Command Line Usage
-* python3 C:\path\to\NPCscan_Alert\scout.py -Azuregos
-* python3 C:\path\to\NPCscan_Alert\scout.py -Kazzak
-* python3 C:\path\to\NPCscan_Alert\scout.py -Hinterlands
-* python3 C:\path\to\NPCscan_Alert\scout.py -Duskwood
-* python3 C:\path\to\NPCscan_Alert\scout.py -Ashenvale
-* python3 C:\path\to\NPCscan_Alert\scout.py -Feralas
+* python C:\path\to\NPCscan_Alert\scout.py -Azuregos
+* python C:\path\to\NPCscan_Alert\scout.py -Kazzak
+* python C:\path\to\NPCscan_Alert\scout.py -Hinterlands
+* python C:\path\to\NPCscan_Alert\scout.py -Duskwood
+* python C:\path\to\NPCscan_Alert\scout.py -Ashenvale
+* python C:\path\to\NPCscan_Alert\scout.py -Feralas
