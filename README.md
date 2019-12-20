@@ -27,8 +27,7 @@
       3. Do not close Command Prompt as that will kill the process and nothing will happen if a boss spawns. 
   7. Get on your scouter and make sure the boss you are scouting is on your Unitscan list
       1. `/unitscan Azuregos`
-  8. Clock in on the scouting schedule.
-  9. Open up netflix, pornhub, youtube whatever and check back in every 15 or so minutes to not get auto disconnected by Blizzard.
+  8. Open up netflix, pornhub, youtube whatever and check back in every 15 or so minutes to not get auto disconnected by Blizzard.
       
       
 ### Command Line Usage
