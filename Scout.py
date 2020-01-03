@@ -15,52 +15,66 @@ async def eventTrigger(unixtimestamp,filename,voicechannel):
 	if sys.argv[1] == '-Hinterlands':
 		msg='@everyone Emerald Dragon SPAWN - Hinterlands ! <:emeraldDragons:644964005823119370>'
 		success = await discordReport(msg)
-		voicechannel.play(discord.FFmpegPCMAudio('/Users/tim/Downloads/key_secret.mp3'))
-		if success == True:
-			time.sleep(120)
-			sys.exit(0)
+		while True:
+			voicechannel.play(discord.FFmpegPCMAudio('/Users/tim/Downloads/key_secretold.mp3'))
+			if success == True:
+				time.sleep(50)
+				await disconnect()
+				sys.exit(0)
 	elif sys.argv[1] == '-Ashenvale':
 		msg='@everyone Emerald Dragon SPAWN - Ashenvale ! <:emeraldDragons:644964005823119370>'
 		success = await discordReport(msg)
-		voicechannel.play(discord.FFmpegPCMAudio('/Users/tim/Downloads/key_secret.mp3'))
-		if success == True:
-			time.sleep(120)
-			sys.exit(0)
+		while True:
+			voicechannel.play(discord.FFmpegPCMAudio('/Users/tim/Downloads/key_secretold.mp3'))
+			if success == True:
+				time.sleep(50)
+				await disconnect()
+				sys.exit(0)
 	elif sys.argv[1] == '-Feralas':
 		msg='@everyone Emerald Dragon SPAWN - Feralas ! <:emeraldDragons:644964005823119370>'
 		success = await discordReport(msg)
-		voicechannel.play(discord.FFmpegPCMAudio('/Users/tim/Downloads/key_secret.mp3'))
-		if success == True:
-			time.sleep(120)
-			sys.exit(0)
+		while True:
+			voicechannel.play(discord.FFmpegPCMAudio('/Users/tim/Downloads/key_secretold.mp3'))
+			if success == True:
+				time.sleep(50)
+				await disconnect()
+				sys.exit(0)
 	elif sys.argv[1] == '-Duskwood':
 		msg='@everyone Emerald Dragon SPAWN - Duskwood ! <:emeraldDragons:644964005823119370>'
 		success = await discordReport(msg)
-		voicechannel.play(discord.FFmpegPCMAudio('/Users/tim/Downloads/key_secret.mp3'))
-		if success == True:
-			time.sleep(120)
-			sys.exit(0)
+		while True:
+			voicechannel.play(discord.FFmpegPCMAudio('/Users/tim/Downloads/key_secretold.mp3'))
+			if success == True:
+				time.sleep(50)
+				await disconnect()
+				sys.exit(0)
 	elif sys.argv[1] == '-Kazzak':
 		msg='@everyone Kazzak SPAWN - Blasted Lands ! <:kazzak:644626880816873501>'
 		success = await discordReport(msg)
-		voicechannel.play(discord.FFmpegPCMAudio('/Users/tim/Downloads/key_secret.mp3'))
-		if success == True:
-			time.sleep(120)
-			sys.exit(0)
+		while True:
+			voicechannel.play(discord.FFmpegPCMAudio('/Users/tim/Downloads/key_secretold.mp3'))
+			if success == True:
+				time.sleep(50)
+				await disconnect()
+				sys.exit(0)
 	elif sys.argv[1] == '-Azuregos':
 		msg='@everyone Azuregos SPAWN - Azshara ! <:azuregos:644626896377872436>'
 		success = await discordReport(msg)
-		voicechannel.play(discord.FFmpegPCMAudio('/Users/tim/Downloads/key_secret.mp3'))
-		if success == True:
-			time.sleep(120)
-			sys.exit(0)
+		while True:
+			voicechannel.play(discord.FFmpegPCMAudio('/Users/tim/Downloads/key_secretold.mp3'))
+			if success == True:
+				time.sleep(50)
+				await disconnect()
+				sys.exit(0)
 	else:
 		msg='@everyone Something SPAWNED - My owner fucked up and did not specify where!'
 		success = await discordReport(msg)
-		voicechannel.play(discord.FFmpegPCMAudio('/Users/tim/Downloads/key_secret.mp3'))
-		if success == True:
-			time.sleep(120)
-			sys.exit(0)
+		while True:
+			voicechannel.play(discord.FFmpegPCMAudio('/Users/tim/Downloads/key_secretold.mp3'))
+			if success == True:
+				time.sleep(50)
+				await disconnect()
+				sys.exit(0)
 
 async def discordReport(msg):
 	counter = 0
