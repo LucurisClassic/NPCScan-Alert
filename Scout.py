@@ -22,7 +22,7 @@ class MyClient(discord.Client):
 		async def eventTrigger(self,unixtimestamp,filename,voicechannel):
 			screenshotsfolder = 'C:\\Program Files (x86)\\World of Warcraft\\_classic_\\Screenshots'
 			print ("Detected file %s @ %s" % (os.path.join(screenshotsfolder,"WoWScrnShot_"+filename+".jpg"), unixtimestamp))
-			msg='@everyone %s SPAWN ! <:emeraldDragons:644964005823119370> <:kazzak:644626880816873501> <:azuregos:644626896377872436>' % sys.argv[1]
+			msg='@everyone %s SPAWN ! ' % sys.argv[1]
 			success = await discordReport(self,msg)
 			success=True
 			voicechannel.play(discord.FFmpegPCMAudio('C:\\Users\\timot\\Desktop\\newScan_Alert\\Brain_Power.mp3'))
@@ -32,8 +32,8 @@ class MyClient(discord.Client):
 			
 		async def discordReport(self,msg):
 			counter = 0
-			coalition = client.get_channel(644260570744487946) 
-			# whatheflux = client.get_channel(349500178971099136)
+			coalition = client.get_channel() #text channel ID here
+			# whatheflux = client.get_channel()
 			while counter <=2:
 				await coalition.send(msg)
 				# await whatheflux.send(msg)
@@ -61,9 +61,9 @@ class MyClient(discord.Client):
 								pass #already know about it, ignore
 			except KeyboardInterrupt:
 				pass
-		voicechannel=client.get_channel(661011695732523049)  # COALITION DISCORD
-		# voicechannel=client.get_channel(126901181615308801)# WHATHEFLUX DISCORD
+		voicechannel=client.get_channel()  # COALITION Voice Channel ID
+		# voicechannel=client.get_channel()# WHATHEFLUX DISCORD
 		await activeScanner(self,voicechannel)
 
 client = MyClient()
-client.run('MzQ5NDgzMTQ4NTE5NjY5NzYy.Xg6QCw.CCkE1f0zRqoBLQYZgrj3mD8RkAA')
+client.run('') #BOT TOKEN HERE
