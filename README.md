@@ -13,7 +13,7 @@
           * pip install ffmpeg
       * [Unitscan](https://www.curseforge.com/wow/addons/unitscan/)
       * A Discord Bot
-      * FFmpeg (not just the python library)      
+      * [FFmpeg](https://www.ffmpeg.org/download.html) (not just the python library)      
   
 ### How to Install, What to Change, How to Use
   1. Save scout.py to your desired folder. 
