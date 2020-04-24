@@ -19,15 +19,14 @@ class MyClient(discord.Client):
 
 	async def my_background_task(self):
 		await self.wait_until_ready()
-		async def eventTrigger(self,unixtimestamp,filename,voicechannel):
+		async def eventTrigger(self,unixtimestamp,filename):
 			screenshotsfolder = 'C:\\Program Files (x86)\\World of Warcraft\\_classic_\\Screenshots'
 			print ("Detected file %s @ %s" % (os.path.join(screenshotsfolder,"WoWScrnShot_"+filename+".jpg"), unixtimestamp))
 			msg='@everyone %s SPAWN ! ' % sys.argv[1]
 			success = await discordReport(self,msg)
-			success=True
-			voicechannel.play(discord.FFmpegPCMAudio('C:\\Users\\timot\\Desktop\\newScan_Alert\\Brain_Power.mp3'))
+			#voicechannel.play(discord.FFmpegPCMAudio('C:\\Users\\timot\\Desktop\\newScan_Alert\\Brain_Power.mp3'))
 			time.sleep(300)
-			await voicechannel.disconnect()
+			#await voicechannel.disconnect()
 			sys.exit()
 			
 		async def discordReport(self,msg):
@@ -40,8 +39,8 @@ class MyClient(discord.Client):
 				counter += 1
 			return True
 
-		async def activeScanner(self,voicechannel):
-			vc = await voicechannel.connect(reconnect=True)
+		async def activeScanner(self):
+			#vc = await voicechannel.connect(reconnect=True)
 			screenshotsfolder = 'C:\\Program Files (x86)\\World of Warcraft\\_classic_\\Screenshots'			
 			first_ran_time = time.time()
 			data = {}
@@ -54,16 +53,16 @@ class MyClient(discord.Client):
 							if fndt not in data.keys():
 								if fndt > first_ran_time:
 									data[fndt]=fndtstr
-									msg = await eventTrigger(self,fndt,fndtstr,vc)
+									msg = await eventTrigger(self,fndt,fndtstr)
 								else:	
 									pass #not from this session, ignore
 							else:
 								pass #already know about it, ignore
 			except KeyboardInterrupt:
 				pass
-		voicechannel=client.get_channel()  # COALITION Voice Channel ID
+		#voicechannel=client.get_channel()  # COALITION Voice Channel ID
 		# voicechannel=client.get_channel()# WHATHEFLUX DISCORD
-		await activeScanner(self,voicechannel)
+		await activeScanner(self)
 
 client = MyClient()
 client.run('') #BOT TOKEN HERE
